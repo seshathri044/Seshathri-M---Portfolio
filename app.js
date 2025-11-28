@@ -151,14 +151,16 @@ function Portfolio() {
     },
       React.createElement('div', { className: "max-w-7xl mx-auto text-center" },
         React.createElement('div', { className: "mb-8 inline-block" },
-          React.createElement('div', { 
-            className: "w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 p-1" 
-          },
-            React.createElement('div', { 
-              className: "w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-6xl font-bold" 
-            }, "SM")
-          )
-        ),
+  React.createElement('div', { 
+    className: "w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 p-1" 
+  },
+    React.createElement('img', { 
+      src: "seshathri.jpg",
+      alt: "Seshathri M",
+      className: "w-full h-full rounded-full object-cover"
+    })
+  )
+),
         
         React.createElement('h1', { 
           className: "text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent" 
