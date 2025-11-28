@@ -198,7 +198,7 @@ function Portfolio() {
           
           React.createElement('a', { 
             href: "resume.pdf",
-            download: "Seshathri_M_Resume.pdf",
+            download: "SESHATHRI M.pdf",
             className: "flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg hover:from-purple-500 hover:to-pink-500 transition-all transform hover:scale-105" 
           }, "📄 Download Resume")
         ),
